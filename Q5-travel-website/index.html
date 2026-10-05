@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wonder Trips - Travel and Tourism</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Wonder Trips</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+          <li class="nav-item"><a class="nav-link" href="#booking">Booking</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Banner -->
+  <div id="home" class="banner text-center text-white">
+    <h1>Explore the Beautiful India</h1>
+    <p>Best tour packages at low prices</p>
+    <a href="#booking" class="btn btn-warning">Book Now</a>
+  </div>
+
+  <!-- Tourist Destinations -->
+  <div class="container my-5" id="destinations">
+    <h2 class="text-center mb-4">Tourist Destinations</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="https://picsum.photos/id/1015/400/250" class="card-img-top" alt="Kerala">
+          <div class="card-body">
+            <h5>Kerala</h5>
+            <p>Backwaters, beaches and green hills.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="https://picsum.photos/id/1018/400/250" class="card-img-top" alt="Manali">
+          <div class="card-body">
+            <h5>Manali</h5>
+            <p>Snow mountains and adventure sports.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="https://picsum.photos/id/1039/400/250" class="card-img-top" alt="Goa">
+          <div class="card-body">
+            <h5>Goa</h5>
+            <p>Beautiful beaches and nightlife.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Travel Packages -->
+  <div class="bg-light py-5" id="packages">
+    <div class="container">
+      <h2 class="text-center mb-4">Travel Packages</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-3">
+          <div class="package p-4 border bg-white">
+            <h4>Silver</h4>
+            <h3>Rs. 5,000</h3>
+            <p>2 Days / 1 Night</p>
+            <p>Hotel + Breakfast</p>
+            <button class="btn btn-outline-primary choose" data-pack="Silver">Choose</button>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="package p-4 border bg-white">
+            <h4>Gold</h4>
+            <h3>Rs. 12,000</h3>
+            <p>4 Days / 3 Nights</p>
+            <p>Hotel + Meals + Sightseeing</p>
+            <button class="btn btn-outline-primary choose" data-pack="Gold">Choose</button>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="package p-4 border bg-white">
+            <h4>Platinum</h4>
+            <h3>Rs. 25,000</h3>
+            <p>7 Days / 6 Nights</p>
+            <p>Hotel + Meals + Flights</p>
+            <button class="btn btn-outline-primary choose" data-pack="Platinum">Choose</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Gallery -->
+  <div class="container my-5" id="gallery">
+    <h2 class="text-center mb-4">Image Gallery</h2>
+    <div class="text-center mb-3">
+      <button class="btn btn-secondary filterBtn" data-type="all">All</button>
+      <button class="btn btn-secondary filterBtn" data-type="nature">Nature</button>
+      <button class="btn btn-secondary filterBtn" data-type="city">City</button>
+    </div>
+    <div class="row">
+      <div class="col-6 col-md-3 mb-3 gal nature"><img src="https://picsum.photos/id/1016/300/200" class="img-fluid" alt="pic1"></div>
+      <div class="col-6 col-md-3 mb-3 gal city"><img src="https://picsum.photos/id/1067/300/200" class="img-fluid" alt="pic2"></div>
+      <div class="col-6 col-md-3 mb-3 gal nature"><img src="https://picsum.photos/id/1043/300/200" class="img-fluid" alt="pic3"></div>
+      <div class="col-6 col-md-3 mb-3 gal city"><img src="https://picsum.photos/id/1011/300/200" class="img-fluid" alt="pic4"></div>
+    </div>
+  </div>
+
+  <!-- Multimedia -->
+  <div class="container my-5 text-center" id="video">
+    <h2 class="mb-4">Travel Video</h2>
+    <video width="400" controls class="mw-100">
+      <source src="travel.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Booking / Enquiry Form -->
+  <div class="bg-light py-5" id="booking">
+    <div class="container">
+      <h2 class="text-center mb-4">Booking / Enquiry Form</h2>
+      <form id="bookingForm" class="col-md-6 mx-auto">
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" id="bname" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" id="bemail" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Package</label>
+          <select id="bpackage" class="form-select">
+            <option>Silver</option>
+            <option>Gold</option>
+            <option>Platinum</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Travel Date</label>
+          <input type="date" id="bdate" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea id="bmsg" class="form-control" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+        <p id="result" class="mt-3 text-success text-center"></p>
+      </form>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center p-3">
+    <p class="mb-0">&copy; 2026 Wonder Trips. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

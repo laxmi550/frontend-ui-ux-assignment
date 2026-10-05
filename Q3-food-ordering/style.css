@@ -1,0 +1,12 @@
+/* Small extra CSS for the food website */
+body {
+  background-color: #fffaf0;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px gray;
+}
+
+h2 {
+  color: #b22222;
+}

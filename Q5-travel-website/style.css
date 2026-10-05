@@ -1,0 +1,51 @@
+/* CSS for Travel Website */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 56px;
+  font-family: Arial, sans-serif;
+}
+
+.banner {
+  background-image: url("https://picsum.photos/id/1036/1200/500");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.banner p {
+  text-shadow: 1px 1px 3px black;
+}
+
+h2 {
+  color: #0d6efd;
+}
+
+.card:hover {
+  box-shadow: 0 0 12px gray;
+}
+
+.package {
+  border-radius: 8px;
+}
+
+.gal img {
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 0;
+}
+
+@media (max-width: 576px) {
+  .banner h1 {
+    font-size: 26px;
+  }
+}
